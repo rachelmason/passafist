@@ -1,0 +1,521 @@
+
+#app {
+  color: black;
+  height: 100%;
+  width:100%;
+  font-family: 'Didcat Gothic', sans-serif;
+}
+h1, h2{
+  color: #11ABB0;
+font-family: 'Montserrat', sans-serif;
+}
+.redtext{
+  color: #eb0606
+}
+.inline-flex {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
+}
+.btn{
+  background-color: #10999e;
+  color: black;
+}
+.btn:hover{
+  background-color: #10999e;
+}
+.btn:focus{
+  background-color: #10999e;
+}
+html, body{
+  height:  100%;
+  width:100%
+}
+.center-things{
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.main[data-v-f9371270] {
+    text-align: right;
+    padding-right: 5%;
+}
+nav[data-v-f9371270]{
+    background-color: black;
+    font-family:'Montserrat', sans-serif;
+    z-index: 2;
+    overflow: hidden;
+    position: fixed;
+}
+a[data-v-f9371270]{
+   color: #11abb0
+}
+.badger[data-v-f9371270]{
+    height: 5vh;
+}
+
+#home[data-v-7958d817] {
+    font-family: 'Didact Gothic'
+}
+li[data-v-7958d817] {
+    font-size: 20px;
+    opacity: 0;
+}
+h1[data-v-7958d817] {
+    font-size: 197px;
+    line-height: .8;
+}
+h2[data-v-7958d817] {
+    font-size: 119px;
+    line-height: 1;
+}
+.btn-flat[data-v-7958d817] {
+    outline: 2px solid white;
+    color: white;
+}
+.card[data-v-7958d817] {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 20px;
+}
+img[data-v-7958d817] {
+    height: 250px;
+    /*width:150px;*/
+}
+.rules[data-v-7958d817] {
+    border: 2px solid white;
+    width: 60vh;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+}
+.rules h3[data-v-7958d817] {
+    color: #32605b
+}
+.bgpicture[data-v-7958d817] {
+    background-image: url(/static/img/mainpic.3590c03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*background-attachment: fixed;*/
+    height: 100vh;
+    padding-top: 45px;
+}
+.bgwhite[data-v-7958d817] {
+    background-color: white;
+    height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.wood[data-v-7958d817] {
+    background-image: url(/static/img/retinawood.6bb5a87.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*background-attachment: fixed;*/
+    height: 76vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    /*align-items: center;*/
+}
+.flex-con[data-v-7958d817] {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+.loader[data-v-7958d817] {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    height: 100vh;
+}
+.elevated-box[data-v-7958d817] {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    background: rgba(8, 17, 40, 0.45);
+    color: #fafafa;
+    width: 30vw;
+    height: 15vh;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 477px;
+}
+.elevated-box2[data-v-7958d817] {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    background: rgba(8, 17, 40, 0.45);
+    color: #fafafa;
+    width: 30vw;
+    height: 15vh;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+a[data-v-7958d817] {
+    color: #32605b
+}
+
+.login[data-v-60b1dd3e]{
+  padding-top: 5rem;
+}
+
+.register[data-v-fd9f004a] {
+    padding-top: 5rem;
+}
+.flex-container1[data-v-fd9f004a] {
+    display: inline-block;
+    /*flex-direction: row;*/
+}
+.badgesPic[data-v-fd9f004a]{
+    height: 12vh;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.content ul {
+    position: relative;
+    bottom: auto;
+    overflow: auto;
+    height: 100%;
+    text-align: left;
+    margin-left: 10px;
+}
+.content .messages {
+    overflow: hidden;
+}
+.messages {
+  height: 75%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.countFights {
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  background-color: lightblue;
+  text-align: center;
+}
+.countInjuries {
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  background-color: darkred;
+  color: white;
+  text-align: center;
+}
+.rotate90 {
+  transform: rotate(270deg);
+}
+.lastCard {
+  height: 23vh;
+}
+.cardStyles {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: rgba(100, 100, 100, 0.7);
+  padding: 20px;
+  width: 8vw;
+  height: 16vh;
+  border-radius: 25px;
+}
+.img-opp {
+  height: 70%;
+  /*width:250px;*/
+}
+.flex-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 11vh;
+  width: 100%;
+}
+.bgpic {
+  background-image: url(https://northendorg.files.wordpress.com/2016/09/freakalley.jpg?w=4000&h=&crop=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  height: 100vh;
+  /*overflow-y: scroll;*/
+  padding-top: 5rem;
+}
+.bggame {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /*overflow-y: hidden;*/
+  z-index: 1;
+}
+.typing {
+  position: absolute;
+  bottom: 0;
+  width: 75%;
+  height: 25%;
+  text-align: left;
+  margin-left: 10px;
+}
+.textbox {
+  background-color: white;
+  width: 20%;
+  height: 50%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  /*margin-bottom: 81px;*/
+}
+
+/*.hand {
+/*display: inline-flex;*/
+/*transition: transform 500ms ease-out;*/
+/*transform: scale(1) translateY(0);*/
+/*}*/
+.hand:hover {
+  transform: scale(1.25) translateY(0);
+  padding-bottom: 100px;
+  /*margin-left: 100px;
+margin-right: 100px;*/
+  z-index: 1;
+}
+.flex-hand {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: end;
+      align-items: flex-end;
+  bottom: 0;
+  position: fixed;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  /*overflow-x: hidden;*/
+  /*overflow-y: visible;*/
+  padding-left: 50px;
+}
+.flex-injury {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  position: fixed;
+  bottom: 0;
+}
+.card {
+  height: 19vh;
+  z-index: 0;
+  margin-left: -50px;
+  transition: transform 500ms ease-out;
+  transform: scale(1) translateY(0);
+}
+.card-valid {
+  -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.8));
+  box-shadow: 0px 0px 20px 10px #ff8;
+}
+.injury {
+  height: 19vh;
+  z-index: 0;
+  /*margin-bottom: -50px;*/
+  transition: transform 500ms ease-out;
+  transform: scale(1) translateY(0);
+}
+.injury:hover {
+  z-index: 1;
+}
+.injuryHand {
+  display: inline;
+  transition: transform 500ms ease-out;
+  transform: scale(1) translateY(0);
+}
+.card:hover {
+  /*transform: scale(1.25) translateY(-200px);*/
+  /*margin-left: 100px;
+margin-right: 100px;*/
+  z-index: 1;
+}
+.deck-fight {
+  border-radius: 25px;
+  height: 11vh;
+  margin: 10px;
+  -webkit-filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0.8));
+  transition: all 0.5s linear;
+}
+.deck-fight-valid {
+  -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 231, 255, 0.8));
+  box-shadow: 0px 0px 20px 10px #0ff;
+}
+.deck-fight-valid:hover {
+  -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 231, 255, 0.8));
+  box-shadow: 0px 0px 35px 15px #7ff;
+}
+.deck-injury {
+  border-radius: 25px;
+  height: 11vh;
+  margin: 10px;
+  -webkit-filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0.8));
+  transition: all 0.5s linear;
+}
+.deck-injury-valid {
+  border-radius: 25px;
+  height: 100px;
+  margin: 10px;
+  -webkit-filter: drop-shadow(0px 0px 8px #eb0606);
+  box-shadow: 0px 0px 25px 10px #ffb3b3;
+}
+.deck-injury-valid:hover {
+  border-radius: 25px;
+  height: 100px;
+  margin: 10px;
+  -webkit-filter: drop-shadow(0px 0px 8px #eb0606);
+  box-shadow: 0px 0px 35px 15px #ffb7b7;
+}
+.players-in-game {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 45px;
+  margin-top: -30px;
+  height: 27vh;
+}
+.player-valid {
+  -webkit-filter: drop-shadow(0px 0px 8px #eb0606);
+  box-shadow: 0px 0px 25px 10px #ffb3b3;
+}
+
+.bgpic{
+  background-image: url(https://northendorg.files.wordpress.com/2016/09/freakalley.jpg?w=4000&h=&crop=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: absolute;
+  height: 100%;
+}
+.card{
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+}
+img{
+    height: 250px;
+    /*width:150px;*/
+}
+/*.flex-container{
+  display: flex;
+  align-content: flex-end;
+  
+  
+  height: 100%;
+  width: 100%;
+}*/
+
+.bgpic {
+        background-image: url(https://northendorg.files.wordpress.com/2016/09/freakalley.jpg?w=4000&h=&crop=1);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: fixed;
+        height: 100%;
+}
+    /*.textbox {
+        background: rgba(205, 210, 216, .7);
+        width: 20%;
+        overflow: auto;
+        height: 70%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }*/
+.orange-btn {
+        background-color: #ffab40;
+        color: white;
+}
+.orange-btn:hover {
+        background-color: #ffab40;
+}
+.orange-btn:focus {
+        background-color: #ffab40;
+}
+.card {
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+}
+.flex-card {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+        -ms-flex-wrap: wrap-reverse;
+            flex-wrap: wrap-reverse;
+}
+img {
+        height: 250px;
+        /*width:150px;*/
+}
+.game-lobby {
+}
+    /*.flex-container{
+  display: flex;
+  align-content: flex-end;
+  
+  
+  height: 100%;
+  width: 100%;
+}*/
+
+.main[data-v-7d5513a1] {
+    text-align: right;
+    padding-right: 5%;
+}
+nav[data-v-7d5513a1] {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 2;
+    overflow: hidden;
+    position: fixed;
+}
+a[data-v-7d5513a1] {
+    color: #11abb0
+}
+/*.badgesPic {
+    height: 150px;
+    display: inline-block;
+}*/
+.profileStyle[data-v-7d5513a1] {
+    padding-top: 5rem;
+}
+.flex-container1[data-v-7d5513a1] {
+    display: inline-block;
+    /*flex-direction: row;*/
+}
+.badgesPic[data-v-7d5513a1]{
+    height: 15vh;
+}
+
+/*# sourceMappingURL=app.5f6e517067b83b26e725e21bc15d1e4e.css.map*/
